@@ -1,0 +1,30 @@
+
+
+@import 'bwm-colors';
+// $dark-red-color: #f44336;
+// $dark-gray-color: #484848;
+.navbar {
+    .navbar-brand {
+        letter-spacing: 1px;
+        color: $dark-red-color;
+        font-weight: bold;
+    }
+
+    .bwm-search {
+        width: 350px;
+    }
+
+    .bwm-btn-main {
+        border-color: $dark-red-color;
+        color: $dark-red-color;
+
+        &:hover, &:active, &:focus{
+            background-color: $dark-red-color;
+            border-color: $dark-red-color;
+            color: white;
+            box-shadow: none;
+            // color: orange;
+
+        }
+    }
+}
