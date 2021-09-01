@@ -1,1 +1,16 @@
-<p>rental-listing works!</p>
+<div class="bwm-list-page">
+<h1 class="title">
+    Your Home All Around the World
+</h1>
+
+
+<div class="row" style="margin: 0 auto">
+  <div 
+    *ngFor="let rental of rentals"
+    class="col-md-3 col-sm-6 col-xs-12 my-2">
+    aa
+    <app-rental-card [rentalItem]="rental"></app-rental-card>
+  </div>
+</div>
+
+</div>

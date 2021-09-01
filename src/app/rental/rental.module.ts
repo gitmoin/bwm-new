@@ -1,9 +1,10 @@
+import { RentalCardComponent } from './../shared/rental-card/rental-card.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RentalComponent } from './rental.component';
 import { RentalListingComponent } from './rental-listing/rental-listing.component';
 import { RentalDetailComponent } from './rental-detail/rental-detail.component';
-import { RentalRoutingModule } from './rental-listing/rental-routing.module';
+import { RentalRoutingModule } from './rental-routing.module';
 
 
 
@@ -12,7 +13,8 @@ import { RentalRoutingModule } from './rental-listing/rental-routing.module';
   declarations: [
     RentalComponent,
     RentalListingComponent,
-    RentalDetailComponent
+    RentalDetailComponent,
+    RentalCardComponent
   ],
   imports: [
     CommonModule,
@@ -20,6 +22,7 @@ import { RentalRoutingModule } from './rental-listing/rental-routing.module';
 
   ], 
   exports: [
+    // RentalCardComponent
 
   ]
 })
